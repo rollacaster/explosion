@@ -1,0 +1,17 @@
+@keyframes burst {
+  from {
+    transform: scale(0) rotate(0deg);
+  }
+
+  to {
+    transform: scale(0.2) rotate(360deg);
+  }
+}
+
+text {
+  animation-name: burst;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
